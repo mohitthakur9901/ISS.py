@@ -4,8 +4,8 @@ import smtplib
 import time
 MY_LAT =28.704060
 MY_LONG = 77.102493
-# my_email="mohitthakur9901@gmail.com"
-# password="iizjbdphnbiuqybj"
+my_email=
+password=
 def _iss_overhead():
     response = requests.get(url="http://api.open-notify.org/iss-now.json")
     response.raise_for_status()
